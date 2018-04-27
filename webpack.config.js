@@ -90,6 +90,8 @@ module.exports = {
 		new MiniCssExtractPlugin({ filename: 'styles.min.css' })
 	],
 
+	mode: 'development',
+
 	optimization: {
 		splitChunks: {
 			chunks: 'async',

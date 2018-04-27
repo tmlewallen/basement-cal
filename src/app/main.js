@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Cal from './cal/cal';
 
 class Main extends React.Component {
   render(){
-    return (<h1> Here, Here</h1>);
+    return (<Cal/>);
   }
 }
 const app = document.getElementById('app');
